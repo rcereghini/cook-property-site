@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.mapList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mapListWrap {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.cardHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equalLogo {
+  height: 30px;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.requestInfo {
+  margin: 30px;
+  margin-bottom: 50px;
+}

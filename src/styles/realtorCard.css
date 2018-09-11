@@ -1,0 +1,26 @@
+.headshot {
+  float: left;
+  height: 250px;
+}
+
+.realtorCard {
+  width: 27%;
+  text-align: center;
+  color: white;
+  background-color: #003da5;
+  height: 250px;
+  margin: 25px;
+  margin-top: 50px;
+}
+
+.cardInfo {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 1.3em;
+}

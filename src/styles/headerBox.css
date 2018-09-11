@@ -1,0 +1,40 @@
+.headerBox {
+  width: 100%;
+  background: url("../images/home1.jpg"), rgba(255, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 0px;
+  background-position: center;
+  padding-top: 250px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumboBottom {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  background-color: rgba(0, 61, 165, 0.7);
+  margin-top: 100px;
+}
+
+.jumboBottomNum {
+  font-weight: 800;
+  font-size: 1.4em;
+}
+
+.money {
+}
+
+.address {
+  font-size: 1.3em;
+  margin: 30px;
+}
+
+.topAddress {
+  font-size: 1.5em;
+}
+
+.business {
+  margin: 30px;
+}

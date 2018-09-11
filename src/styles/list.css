@@ -1,0 +1,14 @@
+#list {
+  width: 50%;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#list td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.leftSideTD {
+  color: #003da5;
+}
