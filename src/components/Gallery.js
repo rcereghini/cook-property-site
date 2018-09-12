@@ -23,7 +23,11 @@ function Gallery(props) {
         />
       </div>
       <p className="intro">{props.intro}</p>
-      {IMAGES.map((image, i) => <img src={image} className="galleryImages" />)}
+      {IMAGES.map((image, i) => (
+        <a href={image}>
+          <img src={image} className="galleryImages" />
+        </a>
+      ))}
     </div>
   );
 }
