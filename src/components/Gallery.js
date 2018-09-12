@@ -11,9 +11,9 @@ function Gallery(props) {
   return (
     <div className="container">
       <iframe
-        className="video-responsive"
-        width="420"
-        height="315"
+        class="video"
+        width="720"
+        height="405"
         src="https://www.youtube.com/embed/nmP70Lwb_s4"
         frameborder="0"
         margin="20"
