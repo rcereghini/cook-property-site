@@ -48,3 +48,17 @@
   margin: 30px;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 1150px) {
+  .cardHolder {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .mapList {
+    flex-direction: column;
+    align-items: center;
+  }
+}
