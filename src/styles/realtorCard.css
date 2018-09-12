@@ -38,4 +38,7 @@
   .realtorCard {
     width: 80%;
   }
+  .emailAdjust {
+    font-size: 0.7em;
+  }
 }

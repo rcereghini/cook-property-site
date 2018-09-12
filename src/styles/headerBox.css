@@ -38,3 +38,7 @@
 .business {
   margin: 30px;
 }
+
+.removeUnderline {
+  text-decoration: none;
+}

@@ -13,7 +13,7 @@ function RealtorCard(props) {
           <p>{props.phone}</p>
         </a>
         <a href={props.mailto}>
-          <p>{props.email}</p>
+          <p className="emailAdjust">{props.email}</p>
         </a>
       </div>
     </div>
