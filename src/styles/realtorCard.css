@@ -8,7 +8,7 @@
   text-align: center;
   color: white;
   background-color: #003da5;
-  height: 250px;
+  height: 275px;
   margin: 25px;
   margin-top: 50px;
 }
@@ -28,7 +28,7 @@
 
 @media only screen and (max-width: 1450px) {
   .realtorCard {
-    height: 200px;
+    height: 220px;
     margin: 10px;
     width: 60%;
   }

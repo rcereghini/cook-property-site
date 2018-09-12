@@ -9,8 +9,12 @@ function RealtorCard(props) {
         <p className="name">{props.name}</p>
         <p>{props.profession}</p>
         <p>{props.idNum}</p>
-        <p>{props.phone}</p>
-        <a href={props.mailto} />
+        <a href={props.tel}>
+          <p>{props.phone}</p>
+        </a>
+        <a href={props.mailto}>
+          <p>{props.email}</p>
+        </a>
       </div>
     </div>
   );

@@ -12,7 +12,11 @@ function HeaderBox(props) {
           {props.cityStateZip}
         </p>
         <p className="business">{props.realty}</p>
-        <a className="btn btn-primary btn-lg" href="#" role="button">
+        <a
+          className="btn btn-primary btn-lg"
+          href="mailto:scottcookhomes@gmail.com?subject=Interested%20in%2024019%20S%20201st%20Place"
+          role="button"
+        >
           REQUEST MORE INFO
         </a>
         <div className="jumboBottom">

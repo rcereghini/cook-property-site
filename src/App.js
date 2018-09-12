@@ -71,6 +71,9 @@ class App extends Component {
             profession="Realtor"
             idNum="SA564464000"
             phone="480-993-9317 (Cellular)"
+            tel="tel:480-993-9317"
+            email="scottcookhomes@gmail.com"
+            mailto="mailto:scottcookhomes@gmail.com"
           />
           <RealtorCard
             picName={justinPic}
@@ -78,11 +81,14 @@ class App extends Component {
             profession="Realtor"
             idNum="BR520620000"
             phone="602-405-2665"
+            tel="tel:602-405-2665"
+            email="justincook@remax.net"
+            mailto="mailto:justincook@remax.net"
           />
         </div>
         <a
           className="btn btn-primary btn-lg requestInfo"
-          href="#"
+          href="mailto:scottcookhomes@gmail.com?subject=Interested%20in%2024019%20S%20201st%20Place"
           role="button"
         >
           REQUEST MORE INFO
