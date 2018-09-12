@@ -49,6 +49,10 @@
   margin-bottom: 50px;
 }
 
+.removeUnderline {
+  text-decoration-line: none;
+}
+
 @media only screen and (max-width: 1150px) {
   .cardHolder {
     flex-direction: column;

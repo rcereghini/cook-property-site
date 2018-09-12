@@ -87,7 +87,7 @@ class App extends Component {
           />
         </div>
         <a
-          className="btn btn-primary btn-lg requestInfo"
+          className="btn btn-primary btn-lg requestInfo removeUnderline"
           href="mailto:scottcookhomes@gmail.com?subject=Interested%20in%2024019%20S%20201st%20Place"
           role="button"
         >
