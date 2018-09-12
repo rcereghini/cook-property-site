@@ -9,7 +9,7 @@ for (let i = 1; i < 51; i++)
 
 function Gallery(props) {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="video-responsive">
         <iframe
           class="video"
