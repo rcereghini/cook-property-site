@@ -12,13 +12,12 @@ function Gallery(props) {
     <div className="container-fluid">
       <div className="video-responsive">
         <iframe
-          class="video"
-          width="720"
-          height="405"
-          src="https://www.youtube.com/embed/nmP70Lwb_s4"
+          src="https://player.vimeo.com/video/288969257?title=0&byline=0&portrait=0"
+          width="640"
+          height="360"
           frameborder="0"
-          margin="20"
-          allow="autoplay; encrypted-media"
+          webkitallowfullscreen
+          mozallowfullscreen
           allowfullscreen
         />
       </div>

@@ -7,11 +7,11 @@ import List from "./components/List.js";
 import Map from "./components/Map.js";
 import scottPic from "./images/cookS.jpg";
 import justinPic from "./images/cookJ.jpg";
-import equalOpportunity from "./images/equalOpportunity.jpg";
+import realtorEqualOpMLS from "./images/realtorEqualOpMLS.png";
 import "./App.css";
 
 const realtyName = "RE/MAX SOLUTIONS";
-const realtyAddress = "2730 S Val Vista Dr, Gilbert, AZ 85295";
+const realtyAddress = "1425 S Higley Rd, Ste #104, Gilbert, AZ 85296";
 
 class App extends Component {
   render() {
@@ -22,7 +22,7 @@ class App extends Component {
         </header>
         <HeaderBox
           homePrice="$899,900"
-          streetAddress="24019 S 201st Place"
+          streetAddress="24029 S 201st Place"
           cityStateZip="Queen Creek, AZ 85142"
           realty="RE/MAX Solutions"
           bedrooms="5"
@@ -70,7 +70,7 @@ class App extends Component {
             name="Scott Cook"
             profession="Realtor"
             idNum="SA564464000"
-            phone="480-993-9317 (Cellular)"
+            phone="480-993-9317"
             tel="tel:480-993-9317"
             email="scottcookhomes@gmail.com"
             mailto="mailto:scottcookhomes@gmail.com"
@@ -97,7 +97,7 @@ class App extends Component {
         <img src={realtyLogo} className="App-logo" alt="logo" />
         <p>{realtyName}</p>
         <p>{realtyAddress}</p>
-        <img src={equalOpportunity} className="equalLogo" />
+        <img src={realtorEqualOpMLS} className="equalLogo" />
         <p>Each Office Independently Owned and Operated</p>
       </div>
     );
