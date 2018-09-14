@@ -21,7 +21,7 @@ class App extends Component {
           <img src={realtyLogo} className="App-logo" alt="logo" />
         </header>
         <HeaderBox
-          homePrice="$899,900"
+          homePrice="$889,900"
           streetAddress="24029 S 201st Place"
           cityStateZip="Queen Creek, AZ 85142"
           realty="RE/MAX Solutions"
