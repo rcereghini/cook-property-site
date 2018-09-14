@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
@@ -12,6 +11,7 @@
   color: white;
   width: 100%;
   position: fixed;
+  z-index: 10;
 }
 
 .App-title {
