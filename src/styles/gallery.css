@@ -47,8 +47,13 @@
 
 .arrow {
   display: block;
-  width: 70%;
+  width: 60%;
   padding-bottom: 0px;
   margin: 0 auto;
   margin-bottom: 0px;
+}
+
+.threeDLink {
+  color: blue;
+  margin-bottom: 25px;
 }

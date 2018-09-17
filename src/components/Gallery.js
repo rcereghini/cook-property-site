@@ -24,6 +24,12 @@ function Gallery(props) {
         />
       </div>
       <p className="intro">{props.intro}</p>
+      <a
+        className="threeDLink"
+        href="https://my.matterport.com/show/?m=ziWG95GBM3n&mls=1"
+      >
+        <h2 className="threeDLink">Take a 3D Home Tour!</h2>
+      </a>
       {IMAGES.map((image, i) => (
         <a href={image}>
           <img src={image} className="galleryImages" />
