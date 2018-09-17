@@ -53,3 +53,9 @@
   margin: 0 auto;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 768px) {
+  .headerBox {
+    padding-top: 150px;
+  }
+}
