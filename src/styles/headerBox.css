@@ -42,3 +42,14 @@
 .removeUnderline {
   text-decoration-line: none;
 }
+
+.homeTour {
+  margin-top: 30px;
+}
+
+.buttons {
+  display: flex;
+  width: 350px;
+  margin: 0 auto;
+  flex-direction: column;
+}
